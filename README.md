@@ -1,5 +1,5 @@
 # MetaCoin TronBox Example
-Originally forked from [truffle-box/metacoin](https://github.com/truffle-box/metacoin-box).
+
 
 ### Install TronBox
 
