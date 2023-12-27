@@ -92,10 +92,10 @@ tronbox test  --network nile
  ```
  and save it. You can find an example in `sample-env`.
 
-6. Set the dApp. The dApp needs to know the address where the MetaCoin contract has been deployed. We have put in the box a special script:
+6. Set the dApp. The dApp needs to know the address where the MetaCoin contract has been deployed. Configure using below command
 
 ```
-npm run setup-dapp
+npm run migrate --network nile
 ```
 
 It will execute the migration, retrieve the contract address and save it in the file `src/js/metacoin-config.js`. This won't work if does not find the `.env` file.
